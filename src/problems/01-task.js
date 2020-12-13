@@ -25,28 +25,7 @@ var task1 = {
     combine([1, 2, 3], ['a', 'b', 'c', 'd'])
     [1, 'a', 2, 'b', 3, 'c', 'd']
      */
-
     combine: function(array1, array2) {
 
-    },
-
-    /*на входе строка @srcString, в которой слова разделены пробелами, и ch - символ, из которого будем "рисовать" рамку
-    вывести строку на консоль, так что-бы каждое слово было в новой строке а весь вывод был в текстовой псевдорамке
-    например
-    printInFrame('This string will be printed in frame', '*');
-    ***********
-    * This    *
-    * string  *
-    * will    *
-    * be      *
-    * printed *
-    * in      *
-    * frame   *
-    * *********
-     */
-    printInFrame: function(srcString, ch) {
-
-    },
-
-
+    }
 };
