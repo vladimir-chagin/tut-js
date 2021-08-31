@@ -10,11 +10,22 @@ const requests = {
    * @param {function(error, response)} cb - callback который должен быть вызван после успешного выполнения запроса или ошибки
    * если всё выполнилось хорошо, тогда надо вызвать cb(null, response) если была ошибка - cb(error)
    * */
-  httpGet(url, params, options, cb) {},
+  httpGet(url, params, options, cb) { },
 
   /**
    * смотреть описание httpGet
    * метод будет делать почти то же самое только данные будут отправляться через POST
    */
-  httpPost(url, params, options, cb) {},
+  httpPost(url, params, options, cb) { },
+
+  /**
+   * ф-ция на вход получает объект {key1: value1, key2: value2,.... } и возваращет строку в виде key1=value1&key2=value2....
+   */
+  objectToQuery(obj) { },
+  /**
+   * ф-ция на вход получает строку в виде key1=value1&key2=value2.... и возваращет объект {key1: value1, key2: value2,.... }
+   */
+  queryToObject(query) {
+
+  }
 };
