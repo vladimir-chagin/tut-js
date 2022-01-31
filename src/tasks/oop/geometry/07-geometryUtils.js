@@ -1,7 +1,7 @@
 const GeometryUtils = {
 
     createLine(l) {
-
+        return new LineSegment([new Point(0, 0), new Point(0, l)])
     },
 
     /**
@@ -35,6 +35,7 @@ const GeometryUtils = {
      * написать ф-цию, которая сгенерирует список из n случайных фигур
      */
     createRandomShapes(n) {
+        const l = 10;
 
     }
 };
